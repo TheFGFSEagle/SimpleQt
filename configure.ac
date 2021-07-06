@@ -2,7 +2,7 @@ AC_PREREQ([2.69])
 AC_INIT([SimpleQt], [1.0], [simpleqt@geisbergium.fr], [simpleqt], [geisbergium.fr/simpleqt/])
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign])
 
 AC_ARG_VAR([PYRCC], [The name or full path of pyrcc. Version 5 is required.])
 
