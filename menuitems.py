@@ -50,7 +50,7 @@ class ImageMenuItem(MenuItem):
 	def iconFile(self):
 		return self._iconFile
 	
-	def setThemeIconId(self, themeIconId : str =None): -> None
+	def setThemeIconId(self, themeIconId : str =None):
 		"""
 		Sets the icon of the ImageMenuItem to the standard icon with name themeIconId, or to an empty QIcon
 		@type themeIconId str
