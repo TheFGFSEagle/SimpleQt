@@ -8,3 +8,5 @@ from .buttons import Button, ImageButton
 from .widgets import DockWidget
 from .toolbar import ToolBar
 from .trayicon import TrayIcon
+from .dialogs import Dialog, SettingsDialog
+from .settings import Settings, settings

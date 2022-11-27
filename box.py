@@ -123,7 +123,7 @@ class Box(QWidget):
 			elif bType == BoxType.Grid:
 				self.lay = QGridLayout(self.scrollwid)
 			else:
-				raise ValueError("property 'bType' must be SimpleQt.BoxOrient.*")
+				raise ValueError("property 'bType' must be SimpleQt.BoxType.*")
 			self.scrollwid.setLayout(self.lay)
 		
 			self.scroll.setWidget(self.scrollwid)
@@ -139,7 +139,7 @@ class Box(QWidget):
 			elif bType == BoxOrient.Grid:
 				self.lay = QGridLayout(self)
 			else:
-				raise ValueError("property 'bType' must be SimpleQt.BoxOrient.*")
+				raise ValueError("property 'bType' must be SimpleQt.BoxType.*")
 			self.setLayout(self.lay)
 
 	
